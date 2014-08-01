@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Ex falso quod libet</title>
+ <link href="http://rodrigogribeiro.github.io/feed/" rel="self"/>
+ <link href="http://rodrigogribeiro.github.io"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://rodrigogribeiro.github.io</id>
+ <author>
+   <name>Ex falso quod libet</name>
+   <email>rodrigogribeiro@gmail.com</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://rodrigogribeiro.github.io{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://rodrigogribeiro.github.io{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
