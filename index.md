@@ -1,36 +1,30 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title:
+
+section : Home
 ---
-{% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+I'm a lecturer at Departament of Computing and Information Systems of
+[Federal University of Ouro Preto](http://www.ufop.br), Minas Gerais, Brasil.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+## Research Interests
 
-## Update Author Attributes
+- Type theory.
+- Programming languages design and implementation.
+- Formal verification.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+## Teaching Activities
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+All course information and materials are avaliable at
+[Piazza](www.piazza.com). If you don't attend to any of my classes and
+want access to the material, please [drop me a line](rodrigo@decsi.ufop.br).
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+## Blog
 
-    $ rm -rf _posts/core-samples
+In my blog,  _Ex Falsum Quod Libet_, I write about my research activities.
 
-Here's a sample "posts list".
+Recent posts:
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -38,9 +32,32 @@ Here's a sample "posts list".
   {% endfor %}
 </ul>
 
-## To-Do
+## Publications
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+- Mechanized Metatheory for a Lambda-Calculus with Trust
+  Types.
+  Rodrigo Ribeiro,
+  [Lucília Figueiredo](http://www.decom.ufop.br/prof/lucilia),
+  [Carlos Camarão](http://www.dcc.ufmg.br/~camarao).
+  Journal of the Brazilian Computer Society, 19(4), 433-443, 2013.
+  DOI: 10.1007/s13173-013-0119-5. [Coq formalization](http://https://github.com/rodrigogribeiro/trust-calculus).
+- Ambiguity and Context-Dependent Overloading
+  Rodrigo Ribeiro, [Carlos Camarão](http://www.dcc.ufmg.br/~camarao).
+  Journal of the Brazilian Computer Society, 19(3), 313-324, 2013.
+  DOI: 10.1007/s13173-013-0103-0. [Haskell implementation](http://https://github.com/rodrigogribeiro/mptc).
+- Terminating Constraint Set Satisfiability and Simplification Algorithms for Context-Dependent Overloading
+   Rodrigo Ribeiro,  [Carlos Camarão](http://www.dcc.ufmg.br/~camarao),
+   [Lucília Figueiredo](http://www.decom.ufop.br/prof/lucilia).
+   Journal of the Brazilian Computer Society, 19(4), 423-432, 2013.
+   DOI: 10.1007/s13173-013-0107-9. [Haskell implementation](http://https://github.com/rodrigogribeiro/mptc).
+- Resolvedores SAT para Verificação de Consistência em Modelos de
+  Características. Thieres Dias, Eduardo Figueiredo, Rodrigo Ribeiro. In: Simpósio Mineiro de Computação, 2012, Juiz de Fora. Anais do Simpósio Mineiro de Computação, 2012.
+- Problema da Programação de Horários Escolares através de SAT e
+   Metaheurísticas. George Fonseca, Rodrigo Ribeiro, Flávio Martins. In: 10th Brazilian Congress on Computational Intelligence, 2011, Fortaleza.
+   10th Brazilian Congress on Computational Intelligence. , 2011.
+- Uma Abordagem Híbrida de SAT e Busca Tabu para o Problema da Programação de Horários Escolares In: XLIII Simpósio Brasileiro de Pesquisa Operacional, 2011, Ubatuba.
+   George Fonseca, Rodrigo Ribeiro, Flávio Martins. XLIII Simpósio
+   Brasileiro de Pesquisa Operacional. , 2011.
+- A Solution to Haskell's Multi-paramemeter Type Class Dilemma
+   [Carlos Camarão](http://www.dcc.ufmg.br/~camarao), Rodrigo Ribeiro, [Lucília Figueiredo](http://www.decom.ufop.br/prof/lucilia), Cristiano Vasconcellos,
+   SBLP'2009 (13th Brazilian Symposium on Programming Languages), Gramado, August 19-21, pgs. 5-18, 2009.
