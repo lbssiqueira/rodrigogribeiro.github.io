@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Developing Dependently Typed Programs in Agda - Take I"
+title: "Developing Dependently Typed Programs in Agda - Part 1"
 description: ""
 category: [Agda, Programming]
 tags: [Agda]
