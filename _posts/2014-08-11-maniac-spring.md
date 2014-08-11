@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Maniac Fall   2014"
+title: "Maniac Spring "
 description: ""
 category: [Maniac, Meta, Productivity]
 tags: [Maniac, Meta, Productivity]
@@ -8,7 +8,7 @@ tags: [Maniac, Meta, Productivity]
 {% include JB/setup %}
 
 Inspired by [Brent Yourgey](http://byorgey.wordpress.com)'s post, I've
-decided to setup not a _Maniac week_, but a _Maniac Fall_!
+decided to setup not a _Maniac week_, but a _Maniac Spring_!
 The idea is just to eliminate as many distractions as possible, and
 just work (yes, I'll reduce coffee time...).
 
